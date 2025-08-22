@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'popins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+html,
+body {
+    background-color: #031119;
+}
+
+.offcanvas,
+.dropdown-menu {
+    background-color: #1b262c;
+}
+
+.btn-close {
+    color: white !important;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'popins';
+}
+
+.navbar a:hover {
+    color: #e3a127;
+}
+
+.navbar a:focus {
+    color: #e3a127;
+}
+
+.navbar {
+    z-index: 100 !important;
+}
+
+.card {
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-img,
+.carousel-img {
+    width: 100%;
+    height: 200px;
+    /* min-height: 200px; */
+    /* or use a responsive unit like 50vh */
+    object-fit: contain;
+    /* fills the area, may crop */
+    object-position: center;
+    /* optional: center the crop */
+}
+
+.arrow_right,
+.arrow_left {
+    color: #e3a127;
+    background-color: #2f322c;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 30px;
+}
+
+@media (max-width:500px) {
+
+    .card-img,
+    .carousel-img {
+        width: 100%;
+        height: 280px !important;
+    }
+}
