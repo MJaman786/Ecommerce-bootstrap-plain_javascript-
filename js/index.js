@@ -1,36 +1,37 @@
+// ...existing code...
 let productList = [
     {
         title: 'lkamcs',
         desc: 'alkcsmlkanscjancslkanjscnalknclaksncl',
-        img: '../img/1pc_white_cabinate-removebg-preview.png'
+        img: 'img/1pc_white_cabinate-removebg-preview.png'
     },
     {
         title: 'lkamcs',
         desc: 'alkcsmlkanscjancslkanjscnalknclaksncl',
-        img: '../img/2pc_white_cabinate-removebg-preview.png'
+        img: 'img/2pc_white_cabinate-removebg-preview.png'
     },
     {
         title: 'lkamcs',
         desc: 'alkcsmlkanscjancslkanjscnalknclaksncl',
-        img: '../img/71RLDLA00HL._SX466_-removebg-preview.png'
+        img: 'img/71RLDLA00HL._SX466_-removebg-preview.png'
     },
     {
         title: 'lkamcs',
         desc: 'alkcsmlkanscjancslkanjscnalknclaksncl',
-        img: '../img/pc_black_cabinate-removebg-preview.png'
+        img: 'img/pc_black_cabinate-removebg-preview.png'
     },
     {
         title: 'lkamcs',
         desc: 'alkcsmlkanscjancslkanjscnalknclaksncl',
-        img: '../img/pc_white_cabinate-removebg-preview.png'
+        img: 'img/pc_white_cabinate-removebg-preview.png'
     },
     {
         title: 'lkamcs',
         desc: 'alkcsmlkanscjancslkanjscnalknclaksncl',
-        img: '../img/Waterpc_white_cabinate-removebg-preview.png'
+        img: 'img/Waterpc_white_cabinate-removebg-preview.png'
     }
 ];
-
+// ...existing code...
 // displaying cabinates products: 
 for (let index = 0; index < productList.length; index++) {
     let productContainer = document.querySelector('.product-container');
@@ -78,4 +79,5 @@ window.onload = function () {
     productCart = JSON.parse(localStorage.getItem("cartItems")) || [];
     counter = JSON.parse(localStorage.getItem("countItems")) || 0;
     count.innerText = counter;
+
 }
